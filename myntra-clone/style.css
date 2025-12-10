@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+ul>li>a{
+    font-size: 0.9rem !important;
+    font-weight: 700 !important;
+}
+.icon-container i{
+    font-size: 1.3rem;
+}
+.icon-container p{
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+ .header-form {
+    margin-left: auto; /* pushes to right */
+  }
