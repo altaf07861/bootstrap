@@ -169,3 +169,70 @@
 .footer a{
    text-decoration: none;
 }
+
+.footer-nav-link li>a:hover{
+    color: #88ad35 !important;
+}
+
+
+
+/* contact page css start */
+
+.contact-first-section{
+    width: 100%;
+    background-image: url('./assets/images/contact-bg.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.contact-first-section::before{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+.contact-section-heading{
+   font-size: 4rem;
+   font-weight: 500;
+   color: white;
+}
+.center-section-about{
+    padding-block: 9rem;
+    position: relative;
+    z-index: 2;
+}
+
+.icon-circle{
+    padding: 0.8rem 1.2rem;
+    background-color: #ceea7c;
+    border-radius: 50%;
+}
+
+.form-container .form-control:focus{
+        
+        border: 0.1rem dashed black;
+        box-shadow: none;
+        
+}
+
+.follow-us-section{
+      background-color: #ecf4d3;
+}
+
+.follow-content{
+    padding-block: 3rem;
+  
+}
+
+.follow-icon li{
+    list-style: none;
+}
+.follow-icon li>a{
+    text-decoration: none;
+}
+
