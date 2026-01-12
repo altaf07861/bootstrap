@@ -1,0 +1,28 @@
+@media screen and (max-width: 991px) {
+
+    .hero-para{
+        display: flex;
+        align-items: center;
+    }
+    .hero-heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .orange-btn,
+    .white-btn {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .package-card-details {
+        position: relative;
+        top: -5rem;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 13rem;
+        height: 13rem;
+        left: -0.1rem;
+    }
+}

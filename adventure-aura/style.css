@@ -9,25 +9,24 @@
 
 .lato-font {
     font-family: "Lato", sans-serif;
-    color: white !important ;
+
 }
 
 .playfair-font {
     font-family: "Playfair", serif;
-    color: white !important;
+
 }
 
-
-.first-section{
+.first-section {
     background-image: url('assets/images/home-hero.jpg');
     background-position: center;
     background-size: cover;
-   
+    color: white !important;
     position: relative;
 
 }
 
-.first-section::before{
+.first-section::before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -38,45 +37,137 @@
     opacity: 0.4;
 }
 
-.orange-btn{
+.nav-link {
+    color: white !important;
+
+}
+
+.orange-btn {
     padding: 0.7rem 1.6rem;
     border-radius: 0.5rem;
     background-color: #fb5607;
     outline: none;
     border: none;
     font-size: 1.2rem;
+    color: white;
 }
-.orange-btn:hover{
-   background-color: #f36c2e;
+
+.orange-btn:hover {
+    background-color: #f36c2e;
 }
-.white-btn{
+
+.white-btn {
     padding: 0.7rem 1.6rem;
     border-radius: 0.5rem;
-    background-color: rgba(255, 255, 255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     outline: none;
     border: none;
     font-size: 1.2rem;
-}
-.white-btn:hover{
-   background-color: #f36c2e;
+    color: white;
 }
 
-.hero-section{
+.white-btn:hover {
+    background-color: #f36c2e;
+}
+
+.hero-section {
     position: relative;
     z-index: 2;
     padding-block: 7rem;
 }
 
-.hero-para{
-    font-size: 1.3rem;
+.hero-para {
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 400;
-    padding: 0.3rem 0.7rem;
+    padding: 0.3rem 2rem;
     border-radius: 5rem;
-    background-color: rgba(255, 252, 252,0.2);
+    background-color: rgba(255, 252, 252, 0.2);
 }
-.hero-heading{
+
+.hero-heading {
     font-size: 5rem;
     font-weight: 700;
-    
+
+}
+
+/* second section  */
+
+.popular-destination {
+    background-color: #fb56071c;
+    color: #fb5607;
+    text-transform: uppercase;
+    padding: 0.5rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+}
+
+.popular-destination-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+.img-container img {
+    border-radius: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+.package-card-details {
+    position: relative;
+    bottom: 6rem;
+    left: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+
+.star-svg svg {
+    fill: orangered;
+}
+
+.package-card-details-h3 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+/* third section   */
+
+.aboutus {
+    background-color: #FFF7EC;
+    padding-block: 5rem;
+}
+
+.about-heading {
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    border-radius: 5rem;
+    color: #fb5607;
+    font-size: 1rem;
+}
+.about-heading-h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.about-description-ul{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-description>ul>li{
+    list-style: none;
+}
+
+.profile-pic .review-img2{
+
 }
