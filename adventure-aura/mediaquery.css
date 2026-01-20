@@ -41,6 +41,9 @@
         text-align: justify;
     }
 
+    .form-section{
+        padding-inline: 2rem;
+    }
 
     .choose-your-place {
         display: flex;
@@ -194,6 +197,9 @@
     .form-container-row {
 
         bottom: 0rem;
+    }
+     .form-section{
+        padding-inline: 0rem;
     }
 
     .form-reverse {
