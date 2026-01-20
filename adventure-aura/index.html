@@ -15,12 +15,12 @@
 <body>
     <section class="first-section container-fluid px-lg-5">
         <header>
-            <nav class="navbar navbar-expand-lg py-4">
+            <nav class="navbar navbar-dark navbar-expand-lg py-4">
                 <div class="container-fluid ">
                     <a class="navbar-brand" href="#">
                         <img class="img-fluid " src="assets/images/header-logo-1.png" alt="">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler org-bg-color text-white" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -52,13 +52,13 @@
         <!-- hero section  -->
         <div class="hero-section container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 text-lg-start text-sm-center ">
-                    <span class="lato-font hero-para">Experience Luxury Travel</span>
+                <div class="col-lg-6  col-md-8">
+                    <p class="lato-font hero-para">Experience Luxury Travel</p>
                     <h1 class="playfair-font hero-heading">Explore the World Like Never Before</h1>
                     <p class="lato-font">Curated journeys to the world's most extraordinary destinations. Let us
                         transform your travel
                         dreams into unforgettable memories.</p>
-                    <div class="d-flex gap-lg-4 gap-1 text-md-center">
+                    <div class="d-flex gap-lg-4 hero-btn">
                         <button class="orange-btn lato-font" type="submit">Start Planning <i
                                 class="ri-arrow-right-circle-line"></i></button>
                         <button class="white-btn lato-font" type="submit">Watch Video <i
@@ -187,7 +187,7 @@
 
     <!-- about us section  -->
     <section class="aboutus">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
                     <div class="about-img">
@@ -195,40 +195,42 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column align-items-start gap-1">
+                <div class="col-lg-6 col-md-6 col-sm-12 py-5  d-flex flex-column align-items-start ">
 
-                    <div class="row px-2">
+                    <div class="row ">
                         <div class="col-lg-12 d-flex flex-column align-items-start gap-2">
                             <span class="about-heading lato-font">about us</span>
                             <h1 class="playfair-font about-heading-h1">Your Journey, Our Passion</h1>
                             <p class="lato-font about-para">We believe that travel is more than just visiting new
-                                places; it's
-                                about
-                                creating memories,
+                                places; it's about creating memories,
                                 experiencing diverse cultures, and discovering the wonders of the world. With years of
                                 experience in the travel industry, our dedicated team is committed to providing
-                                exceptional
-                                travel experiences tailored to your unique desires and needs.
+                                exceptional travel experiences tailored to your unique desires and needs.
                             </p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="video-container">
-                                <img class="img-fluid" src="assets/images/video.png" alt="">
+                        <div class="col-lg-12 d-flex flex-wrap py-3">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="video-container">
+                                    <img class="img-fluid h-100" src="assets/images/video.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="about-description">
-                                <ul class="about-description-ul">
-                                    <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
-                                            class="ri-checkbox-circle-line fs-4 icon-color"></i> Budget-Friendly</li>
-                                    <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
-                                            class="ri-checkbox-circle-line fs-4 icon-color"></i> Luxurious Getaways</li>
-                                    <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
-                                            class="ri-checkbox-circle-line fs-4 icon-color"></i> Trusted Local Guides
-                                    </li>
-                                    <li class="my-2"><button class="orange-btn">Learn More <i
-                                                class="ri-arrow-right-circle-line"></i></button></li>
-                                </ul>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="about-description">
+                                    <ul class="about-description-ul">
+                                        <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
+                                                class="ri-checkbox-circle-line fs-4 icon-color"></i> Budget-Friendly
+                                        </li>
+                                        <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
+                                                class="ri-checkbox-circle-line fs-4 icon-color"></i> Luxurious Getaways
+                                        </li>
+                                        <li class="lato-font align-items-center d-flex justify-content-center gap-2"><i
+                                                class="ri-checkbox-circle-line fs-4 icon-color"></i> Trusted Local
+                                            Guides
+                                        </li>
+                                        <li class="my-2"><button class="orange-btn">Learn More <i
+                                                    class="ri-arrow-right-circle-line"></i></button></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-sm-12 d-flex align-items-center gap-3 review-section">
@@ -252,35 +254,50 @@
     <section class="popular-destinations py-3">
         <div class="container-fluid py-5 px-lg-5">
             <div class="row ">
-                <div class="col-lg-4 col-sm-12 choose-your-place">
+                <div class="col-lg-4 col-md-6 col-sm-12 choose-your-place">
                     <span class="popular-destination lato-font">Choose Your Place</span>
                     <h1 class="playfair-font about-heading-h1">Popular Destinations</h1>
                     <p>Join us as we explore the wonders of the globe, one incredible journey at a time.</p>
                     <button class="orange-btn">Find Packages <i class="ri-arrow-right-circle-line"></i></button>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
-                    <div class="destination-img">
-                        <img class="img-fluid img-overlay" src="assets/images/destination1.jpg" alt="">
+                    <div class="destination-img ">
+                        <img class="img-fluid " src="assets/images/destination1.jpg" alt="">
+                        <div class="img-text">
+                            <h3 class="playfair-font">Amazon Forest</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="destination-img">
                         <img class="img-fluid" src="assets/images/destination2.jpg" alt="">
+                        <div class="img-text">
+                            <h3 class="playfair-font">New Zealand</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2 position-relative">
                     <div class="destination-img destination-img-3 ">
                         <img class="img-fluid" src="assets/images/destination3.jpg" alt="">
+                        <div class="img-text">
+                            <h3 class="playfair-font">London</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="destination-img">
                         <img class="img-fluid" src="assets/images/destination4.jpg" alt="">
+                        <div class="img-text">
+                            <h3 class="playfair-font">Europe</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 py-2">
                     <div class="destination-img">
                         <img class="img-fluid" src="assets/images/destination5.jpg" alt="">
+                        <div class="img-text">
+                            <h3 class="playfair-font">Africa</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -290,57 +307,176 @@
     <!-- why us section  -->
     <section class="why-us">
         <div class="container-fluid px-lg-5">
-            <div class="row why-us-inner ">
-                <div class="col-lg-5 col-md-4 col-sm-12 why-us-left bg-white p-5 rounded-5">
-                    <div class="customizedpackages">
-                        <span>
-                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-plane" viewBox="0 0 576 512"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-65.5c-10.63 0-18.3 10.17-15.38 20.39L214.86 192H112l-43.2-57.6c-3.02-4.03-7.77-6.4-12.8-6.4H16.01C5.6 128-2.04 137.78.49 147.88L32 256 .49 364.12C-2.04 374.22 5.6 384 16.01 384H56c5.04 0 9.78-2.37 12.8-6.4L112 320h102.86l-49.03 171.6c-2.92 10.22 4.75 20.4 15.38 20.4h65.5c5.74 0 11.04-3.08 13.89-8.06L365.71 320H480c35.35 0 96-28.65 96-64s-60.65-64-96-64z">
-                                </path>
-                            </svg>
-                        </span>
-                        <h3 class="playfair-font"> Customized Packages</h3>
-                        <p class="lato-font">Tailor-made itineraries to suit your preferences and interests, ensuring
-                            a unique travel experience every time.</p>
+            <div class="row why-us-inner py-md-3 ">
+                <div class="col-lg-5 col-md-6 col-sm-12  ">
+                    <div class="why-us-left">
+                        <div class="customizedpackages">
+                            <span>
+                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-plane" viewBox="0 0 576 512"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-65.5c-10.63 0-18.3 10.17-15.38 20.39L214.86 192H112l-43.2-57.6c-3.02-4.03-7.77-6.4-12.8-6.4H16.01C5.6 128-2.04 137.78.49 147.88L32 256 .49 364.12C-2.04 374.22 5.6 384 16.01 384H56c5.04 0 9.78-2.37 12.8-6.4L112 320h102.86l-49.03 171.6c-2.92 10.22 4.75 20.4 15.38 20.4h65.5c5.74 0 11.04-3.08 13.89-8.06L365.71 320H480c35.35 0 96-28.65 96-64s-60.65-64-96-64z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <h3 class="playfair-font"> Customized Packages</h3>
+                            <p class="lato-font">Tailor-made itineraries to suit your preferences and interests,
+                                ensuring
+                                a unique travel experience every time.</p>
+                        </div>
+                        <hr>
+                        <div class="customizedpackages">
+                            <span>
+                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-hiking" viewBox="0 0 384 512"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M80.95 472.23c-4.28 17.16 6.14 34.53 23.28 38.81 2.61.66 5.22.95 7.8.95 14.33 0 27.37-9.7 31.02-24.23l25.24-100.97-52.78-52.78-34.56 138.22zm14.89-196.12L137 117c2.19-8.42-3.14-16.95-11.92-19.06-43.88-10.52-88.35 15.07-99.32 57.17L.49 253.24c-2.19 8.42 3.14 16.95 11.92 19.06l63.56 15.25c8.79 2.1 17.68-3.02 19.87-11.44zM368 160h-16c-8.84 0-16 7.16-16 16v16h-34.75l-46.78-46.78C243.38 134.11 228.61 128 212.91 128c-27.02 0-50.47 18.3-57.03 44.52l-26.92 107.72a32.012 32.012 0 0 0 8.42 30.39L224 397.25V480c0 17.67 14.33 32 32 32s32-14.33 32-32v-82.75c0-17.09-6.66-33.16-18.75-45.25l-46.82-46.82c.15-.5.49-.89.62-1.41l19.89-79.57 22.43 22.43c6 6 14.14 9.38 22.62 9.38h48v240c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V176c.01-8.84-7.15-16-15.99-16zM240 96c26.51 0 48-21.49 48-48S266.51 0 240 0s-48 21.49-48 48 21.49 48 48 48z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <h3 class="playfair-font"> Customized Packages</h3>
+                            <p class="lato-font">Explore thrilling destinations and activities, from mountain trekking
+                                to scuba diving, for the adrenaline seekers.</p>
+                        </div>
+                        <hr>
+                        <div class="customizedpackages">
+                            <span>
+                                <svg aria-hidden="true" class="e-font-icon-svg e-fas-bath" viewBox="0 0 512 512"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M32,384a95.4,95.4,0,0,0,32,71.09V496a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V480H384v16a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V455.09A95.4,95.4,0,0,0,480,384V336H32ZM496,256H80V69.25a21.26,21.26,0,0,1,36.28-15l19.27,19.26c-13.13,29.88-7.61,59.11,8.62,79.73l-.17.17A16,16,0,0,0,144,176l11.31,11.31a16,16,0,0,0,22.63,0L283.31,81.94a16,16,0,0,0,0-22.63L272,48a16,16,0,0,0-22.62,0l-.17.17c-20.62-16.23-49.83-21.75-79.73-8.62L150.22,20.28A69.25,69.25,0,0,0,32,69.25V256H16A16,16,0,0,0,0,272v16a16,16,0,0,0,16,16H496a16,16,0,0,0,16-16V272A16,16,0,0,0,496,256Z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <h3>Luxury Vacation</h3>
+                            <p class="lato-font ">Explore thrilling destinations and activities, from mountain trekking
+                                to scuba diving, for the adrenaline seekers.</p>
+                        </div>
                     </div>
-                    <hr>
-                    <div class="customizedpackages">
-                        <span>
-                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-hiking" viewBox="0 0 384 512"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M80.95 472.23c-4.28 17.16 6.14 34.53 23.28 38.81 2.61.66 5.22.95 7.8.95 14.33 0 27.37-9.7 31.02-24.23l25.24-100.97-52.78-52.78-34.56 138.22zm14.89-196.12L137 117c2.19-8.42-3.14-16.95-11.92-19.06-43.88-10.52-88.35 15.07-99.32 57.17L.49 253.24c-2.19 8.42 3.14 16.95 11.92 19.06l63.56 15.25c8.79 2.1 17.68-3.02 19.87-11.44zM368 160h-16c-8.84 0-16 7.16-16 16v16h-34.75l-46.78-46.78C243.38 134.11 228.61 128 212.91 128c-27.02 0-50.47 18.3-57.03 44.52l-26.92 107.72a32.012 32.012 0 0 0 8.42 30.39L224 397.25V480c0 17.67 14.33 32 32 32s32-14.33 32-32v-82.75c0-17.09-6.66-33.16-18.75-45.25l-46.82-46.82c.15-.5.49-.89.62-1.41l19.89-79.57 22.43 22.43c6 6 14.14 9.38 22.62 9.38h48v240c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V176c.01-8.84-7.15-16-15.99-16zM240 96c26.51 0 48-21.49 48-48S266.51 0 240 0s-48 21.49-48 48 21.49 48 48 48z">
-                                </path>
-                            </svg>
-                        </span>
-                        <h3 class="playfair-font"> Customized Packages</h3>
-                        <p class="lato-font">Explore thrilling destinations and activities, from mountain trekking to scuba diving, for the adrenaline seekers.</p>
-                    </div>
-                    <hr>
-                    <div class="customizedpackages">
-                        <span>
-                            <svg aria-hidden="true" class="e-font-icon-svg e-fas-bath" viewBox="0 0 512 512"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M32,384a95.4,95.4,0,0,0,32,71.09V496a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V480H384v16a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V455.09A95.4,95.4,0,0,0,480,384V336H32ZM496,256H80V69.25a21.26,21.26,0,0,1,36.28-15l19.27,19.26c-13.13,29.88-7.61,59.11,8.62,79.73l-.17.17A16,16,0,0,0,144,176l11.31,11.31a16,16,0,0,0,22.63,0L283.31,81.94a16,16,0,0,0,0-22.63L272,48a16,16,0,0,0-22.62,0l-.17.17c-20.62-16.23-49.83-21.75-79.73-8.62L150.22,20.28A69.25,69.25,0,0,0,32,69.25V256H16A16,16,0,0,0,0,272v16a16,16,0,0,0,16,16H496a16,16,0,0,0,16-16V272A16,16,0,0,0,496,256Z">
-                                </path>
-                            </svg>
-                        </span>
-                        <h3>Luxury Vacation</h3>
-                        <p class="lato-font ">Explore thrilling destinations and activities, from mountain trekking to scuba diving, for the adrenaline seekers.</p>
-                    </div>
+
                 </div>
 
-                <div class="col-lg-2"></div>
 
-                <div class="col-lg-5 col-md-8 col-sm-12  left-section "> 
-                    <p class="lato-font why-us-p">why us</p>
-                    <h1 class="playfair-font about-heading-h1">Crafting Unforgettable Journeys</h1>
+
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="left-section d-flex flex-column align-items-start gap-1">
+                        <p class="lato-font why-us-p">why us</p>
+                        <h1 class="playfair-font about-heading-h1">Crafting Unforgettable Journeys</h1>
+                    </div>
+
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials py-5">
+        <div class="container-fluid px-lg-5 py-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-2"></div>
+                <div class="col-lg-6 col-md-8 col-sm-12 text-center  d-flex flex-column align-items-center gap-3">
+                    <p class="popular-destination lato-font  m-0">testimonials</p>
+                    <h1 class=" playfair-font popular-destination-heading fs-sm-1 p-0">Top Reviews</h1>
+                    <div class="double-quotes">
+                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-quote-left" viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="testimonial-review">“An absolutely incredible experience! The attention to detail and
+                        personalized service made our Maldives trip unforgettable. Highly recommend!”</p>
+                    <div class="testimonial-img">
+                        <img src="assets/images/home-review.png" alt="">
+                    </div>
+                    <h4 class="playfair-font fw-bolder">James Anderson</h4>
+                </div>
+                <div class="col-lg-3col-md-2"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Ready for adventure section  -->
+
+    <section class="ready-for-adventure">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12  ">
+                    <div class="adventure-left-section">
+                        <h1 class="playfair-font adventure-h1">Ready to Start Your Adventure?</h1>
+                        <p class="lato-font"> Let us help you create the perfect journey. Our travel experts are ready
+                            to craft your dream
+                            vacation. </p>
+                        <button class="white-btn bg-white" style="color: orangered;">Start Planning <i
+                                class="ri-arrow-right-circle-line"></i></button>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-sm-12 position-relative d-flex justify-content-end align-items-center">
+                    <div class="adventure-img-container">
+                        <img class="img-fluid" src="assets/images/start-adventure.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer section  -->
+    <section class="footer-section px-4">
+        <div class="container-fluid px-lg-4">
+            <div class="row ">
+                <div
+                    class="col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-start gap-3 footer-logo-header pb-5 ">
+                    <div class="footer-logo">
+                        <img class="img-fluid" src="assets/images/header-logo-1.png" alt="">
+                    </div>
+                    <p class="lato-font">Your trusted partner for extraordinary travel experiences since
+                        2015.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-start  pb-5 gap-lg-3">
+                    <div>
+                        <h4 class="playfair-font">Quick Links</h4>
+                        <ul class="lato-font nav  d-flex flex-column align-items-start  gap-lg-3">
+                            <li><a href="#" class="text-decoration-none text-white  lato-font">Home</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">About</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">Packages</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-start  pb-5 gap-lg-3 ">
+                    <h4 class="playfair-font">Contact Info</h4>
+                    <div>
+                        <p class="lato-font">455 West Orchard Street Mountain, NC 280867</p>
+                        <p class="lato-font m-0"><i class="ri-phone-fill org-color pe-1"></i> +91 (246) 642-27-10</p>
+                        <p class="lato-font"><i class="ri-mail-fill org-color pe-1"></i> info@adventureaura.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-start  pb-5 gap-lg-3">
+                    <div>
+                        <h4 class="playfair-font">Quick Links</h4>
+                        <ul class="lato-font nav  d-flex flex-column align-items-start gap-lg-3 gap-sm-2">
+                            <li><a href="#" class="text-decoration-none text-white lato-font">Instagram</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">Twitter</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">LinkedIn</a></li>
+                            <li><a href="#" class="text-decoration-none text-white lato-font">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright d-flex justify-content-center align-items-center py-1">
+                <h6 class="lato-font">Copyright © 2026 Travel Agency</h6>
+            </div>
+        </div>
+
     </section>
 
     <script src="assets/bootstrap/js/bootstrap.js"></script>

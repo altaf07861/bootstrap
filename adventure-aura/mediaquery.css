@@ -1,13 +1,17 @@
 @media screen and (max-width: 991px) {
 
-    .hero-para {
-        display: flex;
-        align-items: center;
+    .hero-section {
+        padding-block: 4.5rem;
     }
 
     .hero-heading {
-        font-size: 3rem;
-        text-align: center;
+        font-size: 3.4rem;
+
+    }
+
+    .hero-btn {
+        display: flex;
+        gap: 1.5rem;
     }
 
     .orange-btn,
@@ -28,7 +32,8 @@
     }
 
     .about-heading-h1 {
-        font-size: 1.8rem;
+        font-size: 3rem;
+        line-height: 3rem;
 
     }
 
@@ -36,40 +41,196 @@
         text-align: justify;
     }
 
+
     .choose-your-place {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         margin-bottom: 1.5rem;
         padding-inline: 1.8rem;
     }
 
+    /* .choose-your-place .about-heading-h1{
+        font-size: 2.2rem!important;
+    } */
     .destination-img-3 {
         position: relative;
         bottom: -0.2rem;
     }
-    .why-us{
+
+
+    .why-us {
         padding: 0;
         height: auto;
     }
-    .customizedpackages h3{
+
+
+    .customizedpackages h3 {
         font-size: 1rem;
     }
-    .customizedpackages p{
+
+    .customizedpackages p {
         font-size: 0.9rem;
     }
-    /* .why-us-inner{
+
+    .left-section {
+        padding-left: 2rem;
+    }
+
+    .left-section>.about-heading-h1 {
+        font-size: 3rem !important;
+        line-height: 3rem !important;
+    }
+
+    .left-section .about-heading-h1 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding: 0px;
+    }
+
+    .ready-for-adventure {
+
+        padding-inline: 1rem;
+    }
+
+    .adventure-left-section {
+        padding-block: 6rem;
+        padding-right: 3rem;
+    }
+
+    .adventure-h1 {
+        font-size: 2.3rem;
+        font-weight: 700;
+        line-height: 2.8rem;
+    }
+
+    .form-img {
+        border-radius: 1rem;
+        position: relative;
+        height: 350px !important;
+        width: 100% !important;
+    }
+
+    .customized-itineraries {
+        padding-inline: 1rem;
+
+    }
+
+    .customized-itineraries .about-heading-h1 {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+
+    .about-section-aboutpage {
+        padding-inline: 2rem;
+    }
+
+    .img-move-to-top {
+        position: relative;
+        bottom: 6rem;
+    }
+
+    .right-section-about-page>.about-heading-h1 {
+        font-size: 36px;
+        line-height: 2rem;
+    }
+
+    .font-size-52 {
+        font-size: 2.1rem;
+    }
+
+    .lato-p-14 {
+        font-size: 14px !important;
+    }
+
+    .second-second-inner {
+        padding-inline: 2rem;
+    }
+
+    .move-top {
+        position: relative;
+        bottom: 6rem;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:667px) {
+
+    .hero-heading {
+        font-size: 2.6rem;
+    }
+
+    .left-section>.about-heading-h1 {
+        font-size: 1.7rem !important;
+        line-height: 2rem !important;
+        padding-block: 1rem;
+    }
+
+    .why-us-inner {
+        display: flex;
         flex-direction: column-reverse;
-        padding-top: 0rem;
-    } */
-    .left-section{
+        padding: 2rem 1rem 2rem 1rem !important;
+        top: 0;
+    }
+
+    .adventure-left-section {
+        padding-block: 1rem;
+        padding-right: 0rem;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
     }
-    .left-section .about-heading-h1{
-        font-size: 1.2rem;
+
+    .adventure-img-container {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .form-container-row {
+
+        bottom: 0rem;
+    }
+
+    .form-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .customized-itineraries {
+        padding-inline: 1rem;
+
+    }
+
+    .customized-itineraries .about-heading-h1 {
+        font-size: 2rem;
+        line-height: 1.9rem;
+    }
+
+    .happy-customer-number h5 {
+        font-size: 1rem;
+    }
+
+    .img-3 {
+        position: absolute;
+        right: 17.5rem;
+    }
+
+    .img-move-to-top {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .right-section-about-page>.about-heading-h1 {
+        font-size: 28px;
         line-height: 2rem;
     }
+
+
+
 }

@@ -17,6 +17,30 @@
 
 }
 
+.org-color {
+    color: #fb5607;
+}
+
+.org-bg-color {
+    background-color: #fb5607 !important;
+}
+
+.light-org-bg {
+    background-color: #FFF7EC;
+}
+
+.font-size-52 {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.icon-bg-color {
+    background-color: #fb5607;
+    padding: 0.1rem 0.5rem;
+    border-radius: 5rem;
+}
+
+
 .first-section {
     background-image: url('assets/images/home-hero.jpg');
     background-position: center;
@@ -34,7 +58,7 @@
     top: 0;
     left: 0;
     background-color: #001219;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .nav-link {
@@ -77,16 +101,18 @@
 }
 
 .hero-para {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     font-weight: 400;
-    padding: 0.3rem 2rem;
+    padding: 0.3rem 1rem;
     border-radius: 5rem;
     background-color: rgba(255, 252, 252, 0.2);
+    display: inline-block !important;
+    text-transform: uppercase;
 }
 
 .hero-heading {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 700;
 
 }
@@ -112,7 +138,7 @@
 
 
 .img-container img {
-    border-radius: 3rem;
+    border-radius: 5rem;
     width: 100%;
     height: auto;
 }
@@ -152,59 +178,81 @@
     color: #fb5607;
     font-size: 1rem;
 }
-.about-heading-h1{
+
+.about-heading-h1 {
     font-size: 4rem;
     font-weight: 700;
     line-height: 4rem;
 }
 
-.about-description-ul{
+
+.about-description-ul {
     display: flex;
     align-items: start;
-    justify-content: center;
     flex-direction: column;
+    padding-left: 0.3rem;
 }
-.about-description>ul>li{
+
+.about-description>ul>li {
     list-style: none;
 }
-.icon-color{
+
+.icon-color {
     color: #fb5607;
 }
 
-.review-img2{
+.review-img2 {
     position: relative;
     left: -1rem;
 }
 
 /* destination section  */
-.destination-img img{
-    border-radius: 5rem;
-    position: relative;
-}
-.destination-img img::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 15, 20, 0.4);
+.destination-img {
+    position: relative;      
+    overflow: hidden;        
+    border-radius: 5rem;    
 }
 
-.destination-img-3{
+.destination-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destination-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+
+.destination-img-3 {
     position: relative;
-    bottom: 5rem;
+    bottom: 4.3rem;
 }
 
 /* why-us section */
-.why-us{
+.why-us {
     background-image: url('assets/images/destination.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
     height: auto;
 }
-.why-us::before{
+
+.why-us::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -214,24 +262,38 @@
     background-color: rgba(0, 15, 20, 0.4);
 }
 
-.why-us-inner{
+.why-us-inner {
     padding: 5rem 3rem 0rem 3rem;
     position: relative;
     z-index: 2;
     top: 5rem;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
 }
-.customizedpackages svg{
+
+.why-us-left {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 2rem;
+    width: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.customizedpackages svg {
     fill: #fb5607;
     height: 40px;
     width: 40px;
 }
-.customizedpackages h3{
+
+.customizedpackages h3 {
     margin-top: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-.why-us-p{
+.why-us-p {
     color: white;
     text-transform: uppercase;
     font-size: 1rem;
@@ -239,10 +301,250 @@
     padding: 0.3rem 1.4rem;
     border-radius: 5rem;
 }
-.left-section{
+
+.left-section {
     color: white;
+    padding-left: 13rem;
+
+}
+
+
+/* Ready for adventure section */
+.ready-for-adventure {
+    background-color: #fb5607;
+    color: white;
+    padding-inline: 3rem;
+    position: relative;
+}
+
+.ready-for-adventure::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('assets/images/Travel-svg.svg');
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.adventure-left-section {
+    padding-block: 7rem;
+    padding-right: 8rem;
+}
+
+.adventure-h1 {
+    font-size: 3.7rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.adventure-img-container {
+    position: absolute;
+    bottom: 0rem;
+}
+
+/* footer section */
+.footer-section {
+    padding-block: 3rem;
+    background-color: #001219;
+    color: white;
+}
+
+
+/* contact page  */
+.contact-header {
+    background-image: url('assets/images/contact-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    position: relative;
+}
+
+.contact-header::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #001219;
+    opacity: 0.8;
+}
+
+.form-container-row {
+    margin-inline: 5rem;
+    position: relative;
+    bottom: 6rem;
+
+}
+
+
+.form-img {
+    border-radius: 5rem;
+    position: relative;
+}
+
+.form-img::before {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+
+.contact-card {
+    padding-bottom: 6rem;
+}
+
+
+/* package section start  */
+.package-header {
+    background-image: url('assets/images/packages-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    position: relative;
+}
+
+.package-header::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+/* package card  */
+.package-card-section {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+
+.packages-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.price-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #f36c2e;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* about section start  */
+.about-header {
+    background-image: url('assets/images/about-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    position: relative;
+}
+
+.about-header::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+.our-team-section {
+    padding-block: 5rem;
+    background-color: #FFF7EC;
+}
+
+/* customized-itineraries section  */
+.customized-itineraries {
+    /* padding-top: 1rem; */
+    padding-bottom: 5rem;
+    padding-inline: 3rem;
+}
+
+.img-2 {
+    position: relative;
+    right: 1.6rem;
+}
+
+.img-3 {
+    position: relative;
+    right: 3.4rem;
+}
+
+/* about section on about page  */
+.about-section-aboutpage {
+    background-color: antiquewhite;
+    padding-block: 7rem;
+    padding-inline: 3rem;
+}
+
+.img-move-to-top {
+    position: relative;
+    bottom: 10.5rem;
+}
+
+/* trend section  */
+
+.trending-packages-section {
+    padding-block: 6rem;
+}
+
+.overlay-dark {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.overlay-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+.overlay-dark img {
+    position: relative;
+    z-index: 0;
+}
+
+.overlay-content {
+    position: absolute;
+    inset: 0;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    z-index: 3;
+    color: white;
+}
 
+.second-second-inner {
+    padding-inline: 6rem;
+}
+
+
+.move-top {
+    position: relative;
+    bottom: 8rem;
 }
