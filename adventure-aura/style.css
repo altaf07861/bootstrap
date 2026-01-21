@@ -70,8 +70,8 @@
 .hero-para{
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    font-weight: 400;
-    padding: 0.3rem 0.7rem;
+    font-weight: 300;
+    padding: 0.3rem 1.5rem;
     border-radius: 5rem;
     background-color: rgba(255, 252, 252,0.2);
 }
@@ -79,4 +79,10 @@
     font-size: 5rem;
     font-weight: 700;
     
+}
+
+/* second section  */
+.Handpicked-heading{
+    font-size: 4rem;
+    font-weight: 700;
 }
